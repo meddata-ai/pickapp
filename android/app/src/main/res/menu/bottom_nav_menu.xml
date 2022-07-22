@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_sender_list"
+        android:icon="@drawable/ic_sender"
+        android:title="@string/title_sender_list" />
+
+    <item
+        android:id="@+id/navigation_deliver_list"
+        android:icon="@drawable/ic_courier"
+        android:title="@string/title_deliver_list" />
+
+    <item
+        android:id="@+id/navigation_fav_list"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/title_favourite_list" />
+
+</menu>

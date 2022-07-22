@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_black">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_close_dialog_white" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close"
+        android:gravity="center"
+        android:text="Enter your name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        style="@style/style_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/background_edittext"
+        android:elevation="@dimen/_6sdp"
+        android:padding="@dimen/_6sdp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_25sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="Cancel"
+            android:textColor="@color/primary_dark"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_25sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="Save"
+            android:textColor="@color/primary_dark"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/progress_bar" />
+
+</RelativeLayout>

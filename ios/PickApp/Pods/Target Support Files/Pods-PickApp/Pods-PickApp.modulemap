@@ -1,0 +1,6 @@
+framework module Pods_PickApp {
+  umbrella header "Pods-PickApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

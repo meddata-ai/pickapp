@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'PickApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PickApp
+  pod 'FlagPhoneNumber', :path => '/Users/aakash/Desktop/iOS/PickApp/PickApp/FlagPhoneNumber-master/'
+  pod 'AFNetworking', '~> 4.0'
+  pod 'RMessage', '~> 2.3.4'
+  pod 'DGActivityIndicatorView'
+  pod 'SDWebImage', '~> 5.11.1'
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+  pod 'GooglePlaces'
+  pod 'JTCalendar', '~> 2.0'
+
+  target 'PickAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PickAppUITests' do
+    # Pods for testing
+  end
+
+ 
+  
+end

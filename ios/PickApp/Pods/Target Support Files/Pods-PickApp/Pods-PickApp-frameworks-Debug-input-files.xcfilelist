@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-PickApp/Pods-PickApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework
+${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework
+${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework
+${BUILT_PRODUCTS_DIR}/JTCalendar/JTCalendar.framework
+${BUILT_PRODUCTS_DIR}/PPTopMostController/PPTopMostController.framework
+${BUILT_PRODUCTS_DIR}/RMessage/RMessage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit

@@ -1,0 +1,108 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - DGActivityIndicatorView (2.1.1)
+  - FBAEMKit (12.2.0):
+    - FBSDKCoreKit_Basics (= 12.2.0)
+  - FBSDKCoreKit (12.2.0):
+    - FBAEMKit (= 12.2.0)
+    - FBSDKCoreKit_Basics (= 12.2.0)
+  - FBSDKCoreKit_Basics (12.2.0)
+  - FBSDKLoginKit (12.2.0):
+    - FBSDKCoreKit (= 12.2.0)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - GooglePlaces (5.0.0)
+  - GoogleSignIn (6.0.2):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - HexColors (4.0.0)
+  - JTCalendar (2.2.6)
+  - PPTopMostController (0.0.1)
+  - RMessage (2.3.4):
+    - HexColors (~> 4.0)
+    - PPTopMostController
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - DGActivityIndicatorView
+  - FBSDKLoginKit
+  - FlagPhoneNumber (from `/Users/aakash/Desktop/iOS/PickApp/PickApp/FlagPhoneNumber-master/`)
+  - GooglePlaces
+  - GoogleSignIn
+  - JTCalendar (~> 2.0)
+  - RMessage (~> 2.3.4)
+  - SDWebImage (~> 5.11.1)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AppAuth
+    - DGActivityIndicatorView
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HexColors
+    - JTCalendar
+    - PPTopMostController
+    - RMessage
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  FlagPhoneNumber:
+    :path: "/Users/aakash/Desktop/iOS/PickApp/PickApp/FlagPhoneNumber-master/"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  FBAEMKit: 5fbd0e8bd86fbb2f977fcf39f8a62569b52d1df3
+  FBSDKCoreKit: 183e00947076af95435ac7ff622ea68c50860f80
+  FBSDKCoreKit_Basics: 63539ccd3288849598d4936abe866f9b85320f51
+  FBSDKLoginKit: d9456b3237eb76b9348f8d8fd307df080a1dbe43
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  GooglePlaces: 5d87ca13ed98b7a937e0d8bc7026f718c7263271
+  GoogleSignIn: fd381840dbe7c1137aa6dc30849a5c3e070c034a
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  JTCalendar: 1b326e0d59dd1855b52c5f3feb059d2ff953805d
+  PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
+  RMessage: c53d90b788d64387f68bce3725b309e377b6bf15
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: c412dd10f0fb8e45da0d6dda99d27e603d63926b
+
+COCOAPODS: 1.11.2

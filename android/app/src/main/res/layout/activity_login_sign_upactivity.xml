@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LoginSignUpActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="bottom"
+        android:padding="@dimen/_5sdp"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="Forgot your password?"
+        android:textColor="@color/small_text_color"
+        android:textSize="@dimen/_10ssp" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/tv_forgot_password">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp">
+
+                <TextView
+                    android:id="@+id/tv_entrance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_background"
+                    android:clickable="true"
+                    android:elevation="@dimen/_5sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:padding="@dimen/_6sdp"
+                    android:text="Sign in"
+                    android:textColor="@color/selector_text_color"
+                    android:textSize="@dimen/_14ssp" />
+
+                <TextView
+                    android:id="@+id/tv_registraion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_background"
+                    android:clickable="true"
+                    android:elevation="@dimen/_5sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:padding="@dimen/_6sdp"
+                    android:text="Registration"
+                    android:textColor="@color/selector_text_color"
+                    android:textSize="@dimen/_14ssp">
+
+                </TextView>
+            </LinearLayout>
+
+
+            <com.psgpw.pickapp.customviews.AppEditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintText="Name"
+                app:titleText="Name" />
+
+
+            <com.psgpw.pickapp.customviews.AppEditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintText="*********@gmail.com"
+                app:titleText="E-mail" />
+
+
+            <com.psgpw.pickapp.customviews.AppEditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintText="********"
+                app:icon="@drawable/ic_visibility_off"
+                app:titleText="Password" />
+
+
+            <com.psgpw.pickapp.customviews.AppEditText
+                android:id="@+id/edt_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintText="********"
+                app:icon="@drawable/ic_visibility_off"
+                app:titleText="Confirm password" />
+
+            <TextView
+                android:id="@+id/tv_submit"
+                style="@style/style_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Submit" />
+
+            <TextView
+                android:id="@+id/tv_sign_in_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/or_sign_in_with"
+                android:textColor="@color/small_text_color"
+                android:textSize="@dimen/_8ssp"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowRadius="4"
+                android:shadowColor="#40000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_google_login"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edittext"
+                    android:clickable="true"
+                    android:padding="@dimen/_6sdp">
+
+                    <TextView
+                        android:id="@+id/tv_google"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:duplicateParentState="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Continue with"
+                        android:textColor="@color/selector_text_button"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:src="@drawable/ic_google" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_facebook_login"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edittext"
+                    android:clickable="true"
+                    android:padding="@dimen/_6sdp">
+
+
+                    <TextView
+                        android:id="@+id/tv_facebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:duplicateParentState="true"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:text="Continue with"
+                        android:textColor="@color/selector_text_button"
+                        android:textSize="@dimen/_10ssp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:src="@drawable/ic_facebook" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/progress_bar" />
+</RelativeLayout>
